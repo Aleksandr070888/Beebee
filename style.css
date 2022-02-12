@@ -1,0 +1,95 @@
+body,
+p,
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ebebeb;
+  font-family: sans-serif;
+}
+.wrapper {
+  background-color: #fff;
+  width: 890px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  background-color: #f8aa03;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 15px 0px 15px 20px;
+}
+nav a.action {
+  text-decoration: underline;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 500px;
+  margin-right: 10px;
+  text-align: justify;
+  padding-left: 20px;
+}
+main h1 {
+  font-size: 21px;
+  padding: 20px 0 10px;
+}
+main p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+main img {
+  width: 500px;
+  height: 350px;
+  background-size: contain;
+  margin-bottom: 10px;
+}
+main h2 {
+  font-size: 19px;
+  padding: 10px 0;
+}
+main table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+main th {
+  background-color: #ebebeb;
+}
+main td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+aside {
+  width: 330px;
+  text-align: justify;
+  box-sizing: border-box;
+  margin: 20px 0 0 10px;
+}
+aside h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+aside p {
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #f8aa03;
+  text-align: center;
+  padding: 29px;
+  color: white;
+  margin-top: 20px;
+}
